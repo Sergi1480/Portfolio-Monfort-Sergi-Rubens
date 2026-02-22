@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background: url('https://www.airzen.fr/wp-content/uploads/2023/01/Ora_DR.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+nav, h1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px auto;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+.carroussel-inner {
+    width: 150px;
+    height: 150px;
+  }
+  
+.Titre {
+    justify-content: center;
+    text-align: center;
+    text-decoration: solid;
+    text-emphasis: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Informations {
+    justify-content: center;
+    text-align: center;
+    color:black;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+}
