@@ -1,1 +1,0 @@
-alert("Bienvenue dans notre restaurant !")
